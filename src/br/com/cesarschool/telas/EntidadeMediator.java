@@ -1,4 +1,4 @@
-package org.cesarschool.telas;
+package br.com.cesarschool.telas;
 
 public class EntidadeMediator {
 	public String incluir(Entidade ent) {

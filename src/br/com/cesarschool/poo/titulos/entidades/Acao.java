@@ -31,4 +31,4 @@ public class Acao extends Ativo {
     public double calcularPrecoTransacao(double montante) {
         return montante * valorUnitario;
     }
-
+}

@@ -39,3 +39,4 @@ public class Ativo {
 	public LocalDate getDataValidade() {
 		return dataValidade;
 	}
+}

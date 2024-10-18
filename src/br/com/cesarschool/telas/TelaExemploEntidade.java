@@ -1,4 +1,4 @@
-package org.cesarschool.telas;
+package br.com.cesarschool.telas;
 
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
