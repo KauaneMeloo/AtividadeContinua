@@ -19,8 +19,10 @@ public class Acao extends Ativo {
         super(identificador, nome, dataValidade); 
         this.valorUnitario = valorUnitario; 
     }
-
     public void setValorUnitario(double valorUnitario) {
+        if (valorUnitario < 0) {
+            throw new IllegalArgumentException("O valor unitário só pode ser positivo.");
+        }
         this.valorUnitario = valorUnitario;
     }
     public double getValorUnitario() {
@@ -29,4 +31,4 @@ public class Acao extends Ativo {
     public double calcularPrecoTransacao(double montante) {
         return montante * valorUnitario;
     }
-}
+

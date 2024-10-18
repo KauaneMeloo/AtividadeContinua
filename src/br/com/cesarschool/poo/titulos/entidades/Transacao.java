@@ -28,6 +28,9 @@ import java.time.LocalDateTime;
     public Transacao(EntidadeOperadora entidadeCredito, EntidadeOperadora entidadeDebito, 
                     Acao acao, TituloDivida tituloDivida, double valorOperacao, 
                     LocalDateTime dataHoraOperacao) {
+        if (entidadeCredito == null || entidadeDebito == null) {
+            throw new IllegalArgumentException("crédito e débito não podem ser nulas.");
+        }
         this.entidadeCredito = entidadeCredito;
         this.entidadeDebito = entidadeDebito;
         this.acao = acao;
@@ -84,4 +87,5 @@ import java.time.LocalDateTime;
     private void setDataHoraOperacao(LocalDateTime dataHoraOperacao) {
         this.dataHoraOperacao = dataHoraOperacao;
     }
+    
 }

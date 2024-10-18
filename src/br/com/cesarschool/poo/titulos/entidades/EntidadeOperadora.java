@@ -34,7 +34,7 @@ public class EntidadeOperadora {
         this.nome = nome;
         this.autorizadoAcao = autorizadoAcao;
     }
-
+    
     public void setIdentificador(long identificador){
         this.identificador = identificador;
     }
@@ -79,4 +79,11 @@ public class EntidadeOperadora {
     public void debitarSaldoTituloDivida(double valor){
         this.saldoTituloDivida -= valor;
     }
+    @Override
+    public String toString() {
+    return "EntidadeOperadora [identificador=" + identificador + ", nome=" + nome + 
+           ", autorizadoAcao=" + autorizadoAcao + ", saldoAcao=" + saldoAcao + 
+           ", saldoTituloDivida=" + saldoTituloDivida + "]";
+}
+
 }

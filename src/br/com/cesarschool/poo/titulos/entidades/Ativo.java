@@ -25,6 +25,9 @@ public class Ativo {
 		return identificador;
 	}
 	public void setNome(String nome) {
+		if (nome == null || nome.isEmpty()) {
+			throw new IllegalArgumentException("nome vazio.");
+		}
 		this.nome = nome;
 	}
 	public String getNome() {
@@ -36,4 +39,3 @@ public class Ativo {
 	public LocalDate getDataValidade() {
 		return dataValidade;
 	}
-}
