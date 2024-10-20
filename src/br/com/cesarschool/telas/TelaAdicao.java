@@ -1,5 +1,6 @@
 package br.com.cesarschool.telas;
 
+/*import org.w3c.dom.events.MouseEvent;
 
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
@@ -10,10 +11,10 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.events.MouseAdapter;
 import org.eclipse.swt.events.MouseEvent;
-
+*/
 public class TelaAdicao {
 
-	protected Shell shlTelaAdio;
+/*	protected Shell shlTelaAdio;
 	private Text txtPrimeiroNumero;
 	private Text txtSegundoNUmero;
 	private Text txtResultado;
@@ -22,19 +23,19 @@ public class TelaAdicao {
 	 * Launch the application.
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		try {
 			TelaAdicao window = new TelaAdicao();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 
 	/**
 	 * Open the window.
 	 */
-	public void open() {
+	/*public void open() {
 		Display display = Display.getDefault();
 		createContents();
 		shlTelaAdio.open();
@@ -44,12 +45,12 @@ public class TelaAdicao {
 				display.sleep();
 			}
 		}
-	}
+	}*/
 
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	/*protected void createContents() {
 		shlTelaAdio = new Shell();
 		shlTelaAdio.setImage(SWTResourceManager.getImage("C:\\Users\\eduar\\OneDrive\\Imagens\\742328.jpg"));
 		shlTelaAdio.setSize(556, 330);
@@ -104,5 +105,5 @@ public class TelaAdicao {
 		btnLimpar.setBounds(254, 220, 90, 30);
 		btnLimpar.setText("Limpar");
 
-	}
+	}*/
 }

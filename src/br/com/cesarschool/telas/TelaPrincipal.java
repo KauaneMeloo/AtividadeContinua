@@ -1,4 +1,5 @@
-import javax.swing.*;
+package br.com.cesarschool.telas;
+/*import javax.swing.*;
 
 public class TelaPrincipal {
     private static EntidadeMediator mediator = new EntidadeMediator();
@@ -75,4 +76,4 @@ public class TelaPrincipal {
             JOptionPane.showMessageDialog(null, "Entidade não encontrada.");
         }
     }
-}
+}*/

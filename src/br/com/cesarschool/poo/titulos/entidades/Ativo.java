@@ -21,6 +21,7 @@ public class Ativo {
 		this.nome = nome;
 		this.dataValidade = dataValidade;
 	}
+	
 	public int getIdentificador() {
 		return identificador;
 	}

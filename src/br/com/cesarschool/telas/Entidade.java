@@ -1,7 +1,7 @@
 package br.com.cesarschool.telas;
 
 public class Entidade {
-	private String codigo;
+/*	private String codigo;
 	private String nome;
 	private double renda;
 	public Entidade(String codigo, String nome, double renda) {
@@ -28,5 +28,5 @@ public class Entidade {
 	public void setRenda(double renda) {
 		this.renda = renda;
 	}
-	
+	 */
 }

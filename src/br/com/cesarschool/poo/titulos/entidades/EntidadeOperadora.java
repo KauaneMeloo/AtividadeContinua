@@ -33,6 +33,8 @@ public class EntidadeOperadora {
         this.identificador = identificador;
         this.nome = nome;
         this.autorizadoAcao = autorizadoAcao;
+        this.saldoAcao = 0; 
+        this.saldoTituloDivida = 0;
     }
     
     public void setIdentificador(long identificador){

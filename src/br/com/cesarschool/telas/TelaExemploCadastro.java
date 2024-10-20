@@ -1,6 +1,6 @@
-package org.cesarschool.telas;
+/*package org.cesarschool.telas;/*
 
-import org.eclipse.swt.widgets.Display;
+/*import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;
 
@@ -16,16 +16,16 @@ import org.eclipse.swt.events.SelectionEvent;
 
 public class TelaExemploCadastro {
 
-	protected Shell shlTelaDeCdastro;
+	/*protected Shell shlTelaDeCdastro;
 	private static EntidadeMediator mediator = new EntidadeMediator();	
 	private Text txtCodigo;
 	private Text txtNome;
 	private Text txtRenda;
 
-	/**
+	*
 	 * Launch the application.
 	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		try {
 			TelaExemploCadastro window = new TelaExemploCadastro();
@@ -35,9 +35,9 @@ public class TelaExemploCadastro {
 		}
 	}
 
-	/**
+	
 	 * Open the window.
-	 */
+	 
 	public void open() {
 		Display display = Display.getDefault();
 		createContents();
@@ -50,9 +50,9 @@ public class TelaExemploCadastro {
 		}
 	}
 
-	/**
+
 	 * Create contents of the window.
-	 */
+	
 	protected void createContents() {
 		shlTelaDeCdastro = new Shell();
 		shlTelaDeCdastro.setSize(584, 323);
@@ -201,5 +201,4 @@ public class TelaExemploCadastro {
 				txtNome.setText("");
 			}
 		});
-	}
-}
+} }*/

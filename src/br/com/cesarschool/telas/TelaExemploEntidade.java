@@ -1,6 +1,6 @@
 package br.com.cesarschool.telas;
 
-import org.eclipse.swt.widgets.Display;
+	/*import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;
 
@@ -10,11 +10,11 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.events.MouseAdapter;
-import org.eclipse.swt.events.MouseEvent;
+import org.eclipse.swt.events.MouseEvent; */
 
 public class TelaExemploEntidade {
 
-	protected Shell shell;
+		/*protected Shell shell;
 	private EntidadeMediator mediator = new EntidadeMediator(); 
 	private Text txtCodigo;
 	private Button btnNovo;
@@ -25,12 +25,12 @@ public class TelaExemploEntidade {
 	private Text txtRenda;
 	private Button btnIncluirAlterar;
 	private Button btnCancelar;
-	private Button btnLimpar;
+	private Button btnLimpar; */
 
 	/**
 	 * Launch the application.
 	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		try {
 			TelaExemploEntidade window = new TelaExemploEntidade();
@@ -42,7 +42,7 @@ public class TelaExemploEntidade {
 
 	/**
 	 * Open the window.
-	 */
+	 
 	public void open() {
 		Display display = Display.getDefault();
 		createContents();
@@ -58,7 +58,7 @@ public class TelaExemploEntidade {
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	/*protected void createContents() {
 		shell = new Shell();
 		shell.setSize(607, 369);
 		shell.setText("SWT Application");
@@ -206,6 +206,6 @@ public class TelaExemploEntidade {
 				txtNome.setText("");				
 			}
 		});
-	}
+	}*/
 
 }

@@ -1,7 +1,7 @@
 package br.com.cesarschool.telas;
 
 public class EntidadeMediator {
-	public String incluir(Entidade ent) {
+	/*	public String incluir(Entidade ent) {
 		String msg = validar(ent);
 		if (msg == null) {
 			// incluir no DAO
@@ -28,5 +28,5 @@ public class EntidadeMediator {
 		} else {
 			return new Entidade("001", "Carlos", 1000.00);
 		}
-	}
+	} */
 }

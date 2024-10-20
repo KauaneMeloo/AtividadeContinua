@@ -61,31 +61,5 @@ import java.time.LocalDateTime;
 
     public LocalDateTime getDataHoraOperacao() {
         return dataHoraOperacao;
-    }
-
-
-    private void setEntidadeCredito(EntidadeOperadora entidadeCredito) {
-        this.entidadeCredito = entidadeCredito;
-    }
-
-    private void setEntidadeDebito(EntidadeOperadora entidadeDebito) {
-        this.entidadeDebito = entidadeDebito;
-    }
-
-    private void setAcao(Acao acao) {
-        this.acao = acao;
-    }
-
-    private void setTituloDivida(TituloDivida tituloDivida) {
-        this.tituloDivida = tituloDivida;
-    }
-
-    private void setValorOperacao(double valorOperacao) {
-        this.valorOperacao = valorOperacao;
-    }
-
-    private void setDataHoraOperacao(LocalDateTime dataHoraOperacao) {
-        this.dataHoraOperacao = dataHoraOperacao;
-    }
-    
+    }    
 }
