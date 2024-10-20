@@ -15,7 +15,7 @@ import java.time.format.DateTimeParseException;
  */
 public class Acao extends Ativo {
 	
- private double valorUnitario;
+    private double valorUnitario;
 
     public Acao(int identificador, String nome, String dataValidadeStr, double valorUnitario) {
         super(identificador, nome, converterStringParaLocalDate(dataValidadeStr)); 
@@ -37,7 +37,7 @@ public class Acao extends Ativo {
         }
         this.valorUnitario = valorUnitario;
     }
-    
+
     public double getValorUnitario() {
         return valorUnitario;
     }
