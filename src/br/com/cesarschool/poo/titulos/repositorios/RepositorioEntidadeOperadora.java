@@ -109,6 +109,7 @@ public class RepositorioEntidadeOperadora {
                    double autorizadoAcao = Double.parseDouble(dados[2]);
                    double saldoAcao = Double.parseDouble(dados[3]);
                    double saldoTituloDivida = Double.parseDouble(dados[4]);
+                   //como eu alterei o construtor de EntidadoOperadora tem que encaixar a lógica aqui 
                    EntidadeOperadora entidade = new EntidadeOperadora(id, nome, autorizadoAcao);
                    entidade.creditarSaldoAcao(saldoAcao);
                    entidade.creditarSaldoTituloDivida(saldoTituloDivida);

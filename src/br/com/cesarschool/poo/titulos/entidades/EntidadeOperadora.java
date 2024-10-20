@@ -22,24 +22,31 @@ package br.com.cesarschool.poo.titulos.entidades;
  *  void debitarSaldoTituloDivida(double valor): deve diminuir valor de saldoTituloDivida  
  */
 
+import java.time.LocalDate;
+
 public class EntidadeOperadora {
     private long identificador;
     private String nome;
     private double autorizadoAcao;
     private double saldoAcao;
     private double saldoTituloDivida;
+    private LocalDate dataValidade;
+    private double valorUnitario;
 
-    public EntidadeOperadora(long identificador, String nome, double autorizadoAcao){
+    public EntidadeOperadora(long identificador, String nome, double autorizadoAcao, LocalDate dataValidade, double valorUnitario) {
         this.identificador = identificador;
         this.nome = nome;
         this.autorizadoAcao = autorizadoAcao;
-        this.saldoAcao = 0; 
+        this.saldoAcao = 0;
         this.saldoTituloDivida = 0;
+        this.dataValidade = dataValidade;   //
+        this.valorUnitario = valorUnitario; //
     }
-    
-    public void setIdentificador(long identificador){
-        this.identificador = identificador;
-    }
+
+    //tem que ser read only
+    //public void setIdentificador(long identificador){
+    //    this.identificador = identificador;
+    //}
     public long getIdentificador(){
         return this.identificador;
     }
@@ -62,7 +69,7 @@ public class EntidadeOperadora {
         return this.saldoAcao;
     }
 
-    public double getTituloDivida(){
+    public double getSaldoTituloDivida(){
         return this.saldoTituloDivida;
     }
 
@@ -81,11 +88,26 @@ public class EntidadeOperadora {
     public void debitarSaldoTituloDivida(double valor){
         this.saldoTituloDivida -= valor;
     }
+
+    public LocalDate getDataValidade() {
+        return dataValidade;
+    }
+
+    public void setDataValidade(LocalDate dataValidade) {
+        this.dataValidade = dataValidade;
+    }
+
+    public double getValorUnitario() {
+        return valorUnitario;
+    }
+
+    public void setValorUnitario(double valorUnitario) {
+        this.valorUnitario = valorUnitario;
+    }
     @Override
     public String toString() {
-    return "EntidadeOperadora [identificador=" + identificador + ", nome=" + nome + 
-           ", autorizadoAcao=" + autorizadoAcao + ", saldoAcao=" + saldoAcao + 
-           ", saldoTituloDivida=" + saldoTituloDivida + "]";
-}
-
+        return "EntidadeOperadora [identificador=" + identificador + ", nome=" + nome + 
+               ", autorizadoAcao=" + autorizadoAcao + ", saldoAcao=" + saldoAcao + 
+               ", saldoTituloDivida=" + saldoTituloDivida + ", dataValidade=" + dataValidade + ", valorUnitario=" + valorUnitario + "]";
+    }
 }
